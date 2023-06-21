@@ -1,0 +1,120 @@
+@font-face{
+    font-family: Barlow, Bold;
+    src: url(Barlow/Barlow-Bold.ttf);
+}
+@font-face {
+    font-family: Barlow, Light;
+    src: url(/Barlow/Barlow-Light.ttf);
+}
+@font-face {
+    font-family: Barlow;
+    src: url(/Barlow/Barlow-Regular.ttf);
+}
+@font-face {
+    font-family: Barlow, SemiBold;
+    src: url(/Barlow/Barlow-SemiBold.ttf);
+}
+@font-face {
+    font-family: Sulphur;
+    src: url(Sulphur/SulphurPoint-Regular.ttf);
+}
+body{
+    background-size: 1920px 1080px;
+    padding: 0;
+    margin: 0;
+    font-family: Barlow;
+}
+#navegacao{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-top: 0;
+    padding-top: 0;
+    height: 65px;
+
+}
+#logo{
+    font-family: Sulphur;
+    font-size: 29px;
+    color: black;
+    text-decoration: none
+}
+#destino{
+    font-family: Sulphur;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.75);
+    margin-left: 1300px;
+    text-decoration: none
+}
+#contato{
+    font-family: Sulphur;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.75);
+    text-decoration: none
+}
+#user{
+    width: 39px;
+    padding-right: 10px;
+    margin-left: 10px;
+    filter: opacity(75%);
+}
+nav{
+    background-color: white;
+    box-shadow: 2px 4px 5px 0.1px black;
+}
+nav ul li{
+    list-style-type: none;
+    padding: 20px;
+    color: white;
+    margin: 0;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    width: 100%;
+}
+section{
+    margin-left: 30px;
+    margin-top: 40px;
+    height: 400px;
+    width: 300px;
+    padding-left: 10px;
+    padding-top: 0.5px;
+    box-shadow: 2px 2px 10px 0.3px black;
+    border-radius: 17px;
+ 
+    background-size: cover;
+    background-position: 0px 0px;
+    box-shadow: 0 0 200px rgba(0,0,0,1) inset;
+    box-shadow: 2px 4px 5px 0.1px black;
+    color: white;
+}
+#srio{
+    background-image: url("riodejaneiro.jpg");
+}
+#ssalvador{
+    background-image: url(salvador.jpg);
+}
+#escrita{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 160px;
+}
+#preco {
+    font-size: 40px;
+    font-family: Barlow, Bold;
+}
+#rio{
+    font-size: 40px;
+}
+#salvador{
+    font-size: 40px;
+}
+#ver{
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+}

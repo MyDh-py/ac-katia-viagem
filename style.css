@@ -1,0 +1,129 @@
+@font-face{
+    font-family: Barlow-Bold;
+    src: url(Barlow/Barlow-Bold.ttf);
+}
+@font-face {
+    font-family: Barlow-Light;
+    src: url(/Barlow/Barlow-Light.ttf);
+}
+@font-face {
+    font-family: Barlow-Regular;
+    src: url(/Barlow/Barlow-Regular.ttf);
+}
+@font-face {
+    font-family: Barlow-SemiBold;
+    src: url(/Barlow/Barlow-SemiBold.ttf);
+}
+@font-face {
+    font-family: Sulphur;
+    src: url(Sulphur/SulphurPoint-Regular.ttf);
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+#navegacao{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-top: 0;
+    padding-top: 0;
+    height: 65px;
+
+}
+#logo{
+    font-family: Sulphur;
+    font-size: 29px;
+    color: black;
+    text-decoration: none
+}
+#destino{
+    font-family: Sulphur;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.75);
+    margin-left: 1300px;
+    text-decoration: none
+}
+#contato{
+    font-family: Sulphur;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.75);
+    text-decoration: none
+}
+#user{
+    width: 39px;
+    padding-right: 10px;
+    margin-left: 10px;
+    filter: opacity(75%);
+}
+nav{
+    background-color: white;
+    box-shadow: 10px 4px 10px 10px black;
+}
+nav ul li{
+    list-style-type: none;
+    padding: 20px;
+    color: white;
+    margin: 0;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    width: 100%;
+}
+#salvador{
+
+    background-image: url("salvador.jpg");
+    background-size: cover;
+    background-position: 0px -300px;
+    height: 800px;
+    width: 1920px;
+    position: absolute;
+    box-shadow: 0 0 200px rgba(0,0,0,0.9) inset;
+}
+#box{
+    height: 300px;
+    width: 1300px;
+    background-color: white;
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 17px;
+    box-shadow: 2px 5px 7px black;
+    text-decoration: none;
+
+
+}
+#box ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    row-gap: 10px;
+    column-gap: 30px;
+
+}
+#box ul li{
+    list-style: none;
+    font-size: 20px;
+}
+#libuscar{
+    align-self: flex-end;
+}
+#origem{
+    font-family: Barlow-Light;
+}
+p{
+    font-family: Barlow-Light;
+}
+#titulo{
+    font-family: Barlow-SemiBold;
+    padding-left: 30px;
+    margin-top: px;
+    padding-bottom: 0px;
+}
+#lista{
+    position: absolute;
+}
